@@ -102,13 +102,13 @@ fun FavoriteScreen(//MainScreen は アプリのメイン画面を作る関数�
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
                     Text(
-                        text = "まだ質問がありません",
+                        text = "ここは、お気に入り質問の一覧画面です。",
                         style = MaterialTheme.typography.titleMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                     Spacer(modifier = Modifier.height(8.dp))
                     Text(
-                        text = "メイン画面に戻って、このジャンルで最初の質問を投稿してみましょう！",
+                        text = "今は、お気に入りの質問がありません",
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
